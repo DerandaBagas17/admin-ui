@@ -88,23 +88,23 @@ function App() {
         {/* LATIHAN 4 - DASHBOARD LAYOUT */}
         LATIHAN 4
         <div className="min-h-screen grid gap-4 grid-cols-1 md:grid-cols-12 md:grid-rows-[auto_1fr_auto]">
-      {/* Header: Menggunakan py-10 untuk tinggi Header yang besar */}
-          <header className="bg-gray-300 py-25 px-4 col-span-full md:col-span-12 md:row-start-1">
+      {/* Header */}
+          <header className="bg-gray-300 p-4 md:pt-4 md:pb-50 col-span-full md:col-span-12 md:row-start-1">
             Header
           </header>
           
-          {/* Sidebar: col-span-2 (kecil) */}
-          <aside className="bg-gray-200 py-25 px-4 col-span-full md:col-span-2 md:row-start-2 md:p-4">
+          {/* Sidebar */}
+          <aside className="bg-gray-200 p-4 col-span-full md:col-span-2 md:row-start-2">
             Sidebar
           </aside>
           
-          {/* Content: col-span-10 (besar) */}
-          <main className="bg-white py-25 px-4 col-span-full md:col-span-10 md:row-start-2 border md:p-4">
+          {/* Content */}
+          <main className="bg-white p-4 col-span-full md:col-span-10 md:row-start-2 border">
             Content
           </main>
           
-          {/* Footer: Menggunakan py-6 untuk memperbesar ukuran container Footer */}
-          <footer className="bg-gray-300 py-25 px-4 col-span-full md:col-span-12 md:row-start-3">Footer</footer>
+          {/* Footer */}
+          <footer className="bg-gray-300 p-4 md:pt-4 md:pb-50 col-span-full md:col-span-12 md:row-start-3">Footer</footer>
         </div>
         <hr />
         {/* LATIHAN 5 - CARD PRODUCT */}
